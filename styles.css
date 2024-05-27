@@ -1,11 +1,20 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+  background-color: #1b60df;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 50px;
 }
 
 canvas {
-  border: 1px solid black;
+  border: 10px solid white;
+  border-radius: 20px;
 }
